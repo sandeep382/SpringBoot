@@ -1,0 +1,9 @@
+spring.application.name: GATEWAY
+zuul:
+ prefix: /api
+ routes:
+  price:
+   path: /price/**
+   serviceId: PRICE
+server:
+ port: 1111
