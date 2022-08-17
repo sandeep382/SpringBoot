@@ -1,0 +1,11 @@
+spring:
+ application:
+  name: HELLO
+
+server:
+ port: 8500
+ 
+eureka:
+ client:
+  service-url:
+   defaultZone: ${DISCOVERY_URL:http://localhost:8760}/eureka/
