@@ -1,0 +1,5 @@
+spring:
+ application:
+  name: PRICE
+server:
+ port: 2222
